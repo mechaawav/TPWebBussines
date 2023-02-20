@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+
+
+.skills-experiencia{
+    display: flex;
+    padding-top: 100px;
+}
+
+
+
+.experiencia{
+    color: #8873f0;
+}
+
+.h1-main3{
+    font-size: 70px;
+}
+
+.hrmain3{
+    width: 30px;
+    height: 2px;
+    border: 0;
+    border-radius: 2px;
+    background-color: black
+}
+
+.container-hr-texto3{
+    display: flex;
+    align-items: baseline;
+    color: #444444;
+    width: 480px;
+    position: relative;
+    top: 20px;
+}
+
+/* Skills */
+
+.skills-h2, .experiencia-h2{
+    font-size: 35px;
+    padding-bottom: 80px;
+}
+
+ .skills-h3{
+    font-size: 20px;
+    position: relative;
+    top: 35px;
+} 
+
+.experiencia-h3{
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    left: 20px;
+} 
+
+.p-experiencia{
+    color: #666666;
+    position: relative;
+    left: 40px;
+    bottom: 20px;
+}
+
+.logomain3{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 25px;
+}
+
+  .hr-experiencia{
+    width: 600px;
+    height: 2px;
+    border: 0;
+    border-radius: 2px;
+    background-color: black
+}
+
+.container-skills-boton{
+    display: flex;
+    
+    justify-content: center;
+}
+
+.main3-cajas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-1{
+    width: 200px;
+    height: 150px;
+}
+
+.boton-celeste{
+    background-color: #b9f2fe;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    position: relative;
+    top: 160px;
+}
+
+.botonh3{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 2px solid black;
+    background: black;
+}
+
+.botonh3:hover{
+    background: #fff;
+    color: black
+}
+
+.bi-arrow-up-right{
+    color: #fcda69;
+}
+
+@media only screen and (max-width: 600px) {
+    .titulo3main{
+        position: relative;
+        left: 300px;
+    }
+
+    .container-experiencia{
+        position: relative;
+        top: 360px;
+        right: 250px;
+    }
+
+    .container-skills-boton{
+        position: relative;
+        left: 300px;
+        top: 400px
+
+    }
+
+    .boton-celeste{
+       opacity: 0;
+    }
+
+    .maintres{
+        padding-bottom: 400px;
+    }
+}
