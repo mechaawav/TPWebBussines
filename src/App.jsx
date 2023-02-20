@@ -18,6 +18,7 @@ function App() {
       <Route path='/' element={<MainUno/>}/>
       <Route path='/Acerca' element={<MainUno/>}/>
    </Routes>
+    <MainUno/>  
     <MainDos/>
     <MainTres/>
     <MainCuatro/>
